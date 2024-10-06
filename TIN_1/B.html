@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subscription Form Page</title>
+</head>
+
+<body>
+    <h2>The Subscription Form Page</h2>
+    <form action="">
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" id="email"><br>
+        <label for="login">Login:</label><br>
+        <input type="text" name="login" id="login"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" name="pass" id="pass"><br>
+        <label for="terms">Do you accept <a href="terms.html">the terms and conditions of service</a>?</label><br>
+        <input required type="checkbox" id="terms"><label for="terms">I accept.</label><br>
+
+        <label>Please choose a subscription plan:</label><br>
+        <input type="radio" id="1" name="option" value="one">
+        <label for="1">Basic</label><br>
+        <input type="radio" id="2" name="option" value="two">
+        <label for="2">Plus</label><br>
+        <input type="radio" id="3" name="option" value="three">
+        <label for="3">Grand</label><br>
+
+        <label for="region">Please select the subscription region:</label>
+        <select name="region" id="region">
+            <option value="northamerica">North America</option>
+            <option value="southamerica">South America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+        </select>
+        <br>
+        <label for="extra_info">
+            Please include any additional information for the form:<br>
+            It will be viewed after opening submitted form by <strong>proper consultant</strong>.
+        </label>
+        <br>
+        <textarea name="extras" id="extra_info" rows="6" cols="45"></textarea>
+        <br>
+        <button name="input" type="submit" id="inpt">Send</button>
+        <button name="reset" type="reset" id="res">Reset</button>
+    </form>
+</body>
+
+</html>
