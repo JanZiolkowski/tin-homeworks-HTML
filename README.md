@@ -16,13 +16,13 @@ Create a HTML page that meets the following requirements:
 Create a HTML page that meets the following requirements:
 1.	Standard page skeleton
 2.	Contains the following form elements:
-a.	At least two text input fields
-b.	password field – for the input
-c.	checkbox
-d.	radiobutton group with at least 3 radiobuttons
-e.	dropdown list
-f.	text area
-g.	submit and reset buttons
+- a.	At least two text input fields
+- b.	password field – for the input
+- c.	checkbox
+- d.	radiobutton group with at least 3 radiobuttons
+- e.	dropdown list
+- f.	text area
+- g.	submit and reset buttons
 ### Assignment C – 2 pts
 Create a CSS stylesheet for HTML page from Assignment A. It should meet the following requirements:
 1.	Define font style and size for paragraphs and headers
