@@ -1,6 +1,7 @@
 # tin-homeworks
 This repository was made as a part of the TIN (Technologie internetu / Internet Technologie) course at [PJATK](https://pja.edu.pl).
 
+Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
 It will consist of 7 homeworks and one big project.
 
 ## Task 1 - Description:
@@ -33,3 +34,13 @@ Create a CSS stylesheet for HTML page from Assignment A. It should meet the foll
 Create a CSS stylesheet for HTML page from Assignment B. It should meet the following requirements:
 1.	Define style and size of font for form elements
 2.	Define colors for field labels (one of the text fields should have different color from other fields to indicate that it is mandatory)
+
+### What have I learned from this task?
+- General structure of html sites
+- Selectors and their unique usage
+- Many distinct and unique elements in HTML language
+
+Useful links for this task:
+- [CSS diner](https://flukeout.github.io/)
+- [w3schools](https://www.w3schools.com/)
+
