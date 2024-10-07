@@ -35,6 +35,8 @@ a:hover {
     font-weight: bold;
 }
 
+/* This is a way in which I define different color for field labels and for input elements for email,login,password and terms checkbox.
+Those are mandatory fields to fill. */
 label[for="email"],
 label[for="login"],
 label[for="pass"],
