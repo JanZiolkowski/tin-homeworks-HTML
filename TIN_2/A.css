@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #fdf5df;
+    color: #5ebec4;
+    font-size: 100%;
+}

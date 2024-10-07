@@ -4,7 +4,7 @@ This repository was made as a part of the TIN (Technologie internetu / Internet 
 Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
 It will consist of 7 homeworks and one big project.
 
-## Task 1 - Description:
+## Task 1 - HTML + CSS:
 ### Assignment A – 3 pts
 
 Create a HTML page that meets the following requirements:
@@ -13,7 +13,7 @@ Create a HTML page that meets the following requirements:
 3.	A numbered list with an embedded unordered list
 4.	4x5 table containing random data, with row of header cells
 5.	2x2 table, with upper left cell containing an image, upper right - text, bottom row should contain a single cell with 2 column width, also containing text
-### Assignment B – 3 pts – I HAVE DONE THE TASK
+### Assignment B – 3 pts
 Create a HTML page that meets the following requirements:
 1.	Standard page skeleton
 2.	Contains the following form elements:
@@ -43,4 +43,17 @@ Create a CSS stylesheet for HTML page from Assignment B. It should meet the foll
 Useful links for this task:
 - [CSS diner](https://flukeout.github.io/)
 - [w3schools](https://www.w3schools.com/)
+
+## Task 2 - HTML + CSS:
+### Assignment A – 10 points:
+Use Flexbox or Grid layout and other properties to create a webpage meeting the following requirements:
+-   Header, using an image with rounded corners, rotated and casting shadow + text
+-	Gallery, located on the left, containing images with captions (use tags figure and figcaption!)
+-	Text on the right (at least 5-6 paragraphs) + images and pulled quotes. Text should be wrapped around images and pulled quotes. Pulled quotes should be formatted to stand out from surrounding text. Text should be divided into columns, number of columns should change dynamically depending on available space to maintain readability
+-	Footer – always at the end of the document
+-	Use semantic markup, remember about alt attributes
+-	On devices with <800 pixels width text should be displayed in a single column, gallery should be located after text
+-	(option) import two fonts, use one for headers and pulled quotes, second for main text and captions
+-	Background, colors – it is up to you
+-	Following pages contain example screenshots from a page meeting above requirements
 
