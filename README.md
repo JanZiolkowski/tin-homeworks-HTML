@@ -62,6 +62,6 @@ Use Flexbox or Grid layout and other properties to create a webpage meeting the 
 
 
 Useful links for this task:
-- [Flexbox layout](flexboxfroggy.com)
-- [Grid layout](cssgridgarden.com)
+- [Flexbox layout](https://flexboxfroggy.com/)
+- [Grid layout](https://cssgridgarden.com/)
 - [Media queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
