@@ -1,4 +1,4 @@
-# tin-homeworks
+# tin-homeworks-html
 This repository was made as a part of the TIN (Technologie internetu / Internet Technologie) course at [PJATK](https://pja.edu.pl).
 
 Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
