@@ -58,3 +58,10 @@ Use Flexbox or Grid layout and other properties to create a webpage meeting the 
 -	Background, colors – it is up to you
 -	Following pages contain example screenshots from a page meeting above requirements
 
+## What have I learned from this task?
+
+
+Useful links for this task:
+- [Flexbox layout](flexboxfroggy.com)
+- [Grid layout](cssgridgarden.com)
+- [Media queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
