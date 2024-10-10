@@ -4,6 +4,8 @@ This repository was made as a part of the TIN (Technologie internetu / Internet 
 Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
 It will consist of 7 homeworks and one big project.
 
+IMPORTANT !!! ! + TAB = > creates skeleton of the html file
+
 ## Task 1 - HTML + CSS:
 ### Assignment A – 3 pts
 
