@@ -1,0 +1,19 @@
+Flexbox layout:
+
+directon of items placed in the CSS container -> flex-direction: row, row-reverse, column, column-reverse
+veritcal control -> align-items: flex-start, flex-end, center, baseline, stretch 
+horizontal control -> justify-content: flex-start,flex-end,center,space-between,space-around (horizontal control, because we justify horizontally)
+wrapping property -> flex-wrap: nowrap, wrap, wrap-reverse
+
+flex-direction + flex wrap -> flex-flow: combination of their properties (those properties were usd so often, that they were combined into one functionality)
+
+control of vertical amount of lines -> align-content: flex-start,flex-end,center,space-between,space-around,stretch.
+
+Properties for individual items:
++ property which allows to change order -> order: -2,-1,0,1,2 (be default 0 for all items)
++ property for vertical control -> aligh-self (the same as align-items, just for individual property)
+
+I have completed until last level, I have to revise it for sure!
+
+
+

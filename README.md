@@ -1,5 +1,6 @@
-# tin-homeworks
+# tin-homeworks-html
 This repository was made as a part of the TIN (Technologie internetu / Internet Technologie) course at [PJATK](https://pja.edu.pl).
+It covers tasks concerning HTML & CSS, which are introductory part of this course. 
 
 Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
 It will consist of 7 homeworks and one big project.
@@ -59,3 +60,11 @@ Use Flexbox or Grid layout and other properties to create a webpage meeting the 
 -	Background, colors – it is up to you
 -	Following pages contain example screenshots from a page meeting above requirements
 
+## What have I learned from this task?
+
+
+Useful links for this task:
+- [Flexbox layout](https://flexboxfroggy.com/)
+- [Grid layout](https://cssgridgarden.com/)
+- [Media queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+- [Responive Web Design Tutorial](https://www.w3schools.com/css/css_rwd_intro.asp)
