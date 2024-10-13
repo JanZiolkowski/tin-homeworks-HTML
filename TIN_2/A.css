@@ -1,5 +1,42 @@
+body {
+    background-color: #5ebdc47e;
+
+}
+
 .grid-container {
     display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    justify-content: space-evenly;
+
+}
+
+.flex-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+}
+
+/* Code responsible for rotating and cast shadowing */
+#img1 {
+    width: 20%;
+    rotate: 7deg;
+    border-radius: 10px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.301), 20px 15px rgba(0, 0, 0, 0.301);
+}
+
+#img {
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+#warsaw-logo {
+    width: 10%;
 }
 
 
@@ -7,10 +44,8 @@ footer {
     text-align: center;
     padding: 2px;
     background-color: #fdf5df;
-    color: #5ebec4;
+    color: #5e9fc4;
     font-size: 100%;
 }
 
-@media screen and (max-width: 799px){
-
-}
+@media screen and (max-width: 799px) {}
