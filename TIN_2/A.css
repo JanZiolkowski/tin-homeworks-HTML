@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: orange;
+    background-color: rgb(249, 230, 20);
     font-size: 13px;
 }
 
@@ -25,11 +25,8 @@ body {
     margin-top: 10px;
 }
 
-h1 {
-    margin: 20px;
-    font-family: 'decorativeFont';
-}
 
+/* Used for giving the font style to captions under images and to the text */
 .flex-textarea>div,
 figcaption {
     margin: 50px 50px 50px 50px;
@@ -38,8 +35,17 @@ figcaption {
     text-indent: 0px;
 }
 
-blockquote {
+blockquote.wrapped-left,
+blockquote.wrapped-right {
     font-family: 'decorativeFont';
+    color: brown;
+    margin: 10px 10px 10px 10px;
+}
+
+h1 {
+    font-family: 'decorativeFont';
+    color: brown;
+    margin: 30px 10px 10px 10px;
 }
 
 .header {
@@ -51,10 +57,10 @@ blockquote {
 .main-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    border: 1px dotted rgba(4, 141, 233, 0.8);
+    border: 4px dotted rgba(4, 141, 233, 0.8);
     /* justify-content: center; */
-    column-gap: 100px;
-
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .flex-textarea {
@@ -75,8 +81,7 @@ blockquote {
     line-height: 15px;
     column-count: auto;
     min-width: 250px;
-
-
+    padding: 10px 10px 10px 10px;
 }
 
 .wrapped-right {
@@ -88,13 +93,6 @@ blockquote {
 
 }
 
-blockquote.wrapped-left,
-blockquote.wrapped-right {
-    color: red;
-    margin: 10px 10px 10px 10px;
-    /* font to import */
-}
-
 img.wrapped-left,
 img.wrapped-right {
     margin: 5px 5px 5px 5px;
@@ -102,8 +100,7 @@ img.wrapped-right {
     max-height: fit-content;
 }
 
-/* Here I specify that max-width of images inside column is 280px, so that of columns will be similarly displayed */
-
+/* Here I specify that max-width of images inside column is 220px, so that of columns will be similarly displayed */
 
 .flex-gallery {
     display: flex;
@@ -113,12 +110,18 @@ img.wrapped-right {
     grid-column: 1;
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 
+figcaption {
+    background-color: #5e9fc4;
+    border-radius: 30px;
+    padding: 10px;
+}
 
 #img {
     width: 350px;
-    border: 1px dotted rgba(11, 17, 214, 0.8);
+    border: 10px dotted rgba(5, 11, 177, 0.8);
     margin: 0px;
 }
 
@@ -126,13 +129,12 @@ footer {
     text-align: center;
     margin: auto;
     padding: 2px;
+    border-radius: 55px;
     background-color: #fdf5df;
-    color: #5e9fc4;
+    color: #8812e3;
     font-size: 100%;
-}
-
-.main-container>div {
-    padding: 0%;
+    font-family: 'Nexa';
+    font-weight: bold;
 }
 
 @media screen and (max-width: 799px) {
@@ -144,8 +146,6 @@ footer {
     .main-container {
         display: flex;
         flex-direction: column-reverse;
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        /* justify-content: center; */
         gap: 20px;
     }
 
