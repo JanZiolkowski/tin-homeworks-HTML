@@ -68,3 +68,5 @@ Useful links for this task:
 - [Grid layout](https://cssgridgarden.com/)
 - [Media queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
 - [Responive Web Design Tutorial](https://www.w3schools.com/css/css_rwd_intro.asp)
+- [Nexa Font source](https://www.dafont.com/nexa.font?back=theme)
+- [Sinera Font source](https://www.dafont.com/sinera.font)

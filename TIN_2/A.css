@@ -1,5 +1,18 @@
+/* Enables to use fonts from the web */
+
+@font-face {
+    font-family: decorativeFont;
+    src: url(Sinera.woff);
+}
+
+@font-face {
+    font-family: Nexa;
+    src: url(Nexa-ExtraLight.ttf);
+    font-weight: url(Nexa-Heavy.ttf);
+}
+
 body {
-    background-color: #5ebdc47e;
+    background-color: orange;
     font-size: 13px;
 }
 
@@ -14,6 +27,19 @@ body {
 
 h1 {
     margin: 20px;
+    font-family: 'decorativeFont';
+}
+
+.flex-textarea>div,
+figcaption {
+    margin: 50px 50px 50px 50px;
+    font-family: 'Nexa';
+    line-height: 1.5;
+    text-indent: 0px;
+}
+
+blockquote {
+    font-family: 'decorativeFont';
 }
 
 .header {
@@ -24,10 +50,10 @@ h1 {
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 4fr;
     border: 1px dotted rgba(4, 141, 233, 0.8);
     /* justify-content: center; */
-    gap: 20px;
+    column-gap: 100px;
 
 }
 
@@ -48,6 +74,8 @@ h1 {
     text-align: justify;
     line-height: 15px;
     column-count: auto;
+    min-width: 250px;
+
 
 }
 
@@ -70,7 +98,11 @@ blockquote.wrapped-right {
 img.wrapped-left,
 img.wrapped-right {
     margin: 5px 5px 5px 5px;
+    max-width: 220px;
+    max-height: fit-content;
 }
+
+/* Here I specify that max-width of images inside column is 280px, so that of columns will be similarly displayed */
 
 
 .flex-gallery {
@@ -90,10 +122,6 @@ img.wrapped-right {
     margin: 0px;
 }
 
-#old-market {
-    width: 250px;
-}
-
 footer {
     text-align: center;
     margin: auto;
@@ -110,7 +138,7 @@ footer {
 @media screen and (max-width: 799px) {
 
     body {
-        background-color: purple;
+        background-color: rgb(236, 196, 54);
     }
 
     .main-container {
