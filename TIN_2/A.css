@@ -1,16 +1,77 @@
 body {
     background-color: #5ebdc47e;
-
+    font-size: 13px;
 }
 
-.grid-container {
+/* Code responsible for rotating and cast shadowing */
+#img1 {
+    width: 250px;
+    rotate: 7deg;
+    border-radius: 10px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.301), 20px 15px rgba(0, 0, 0, 0.301);
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-container {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    justify-content: space-evenly;
+    grid-template-columns: 1fr 2fr;
+    border: 1px dotted rgba(4, 141, 233, 0.8);
+    /* justify-content: center; */
+    gap: 20px;
 
 }
+
+.flex-textarea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-textarea>div {
+    /* Margins are used to create space around elements, outside of any defined borders. */
+    margin: 5px 5px 5px 5px;
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 5px 5px 5px 5px;
+    flex: 1;
+    background-color: #f1f1f1;
+    color: darkblue;
+    text-align: justify;
+    line-height: 15px;
+    column-count: auto;
+
+}
+
+.wrapped-right {
+    float: right;
+}
+
+.wrapped-left {
+    float: left;
+
+}
+
+blockquote.wrapped-left,
+blockquote.wrapped-right {
+    color: red;
+    margin: 10px 10px 10px 10px;
+    /* font to import */
+}
+
+img.wrapped-left,
+img.wrapped-right {
+    margin: 5px 5px 5px 5px;
+}
+
 
 .flex-gallery {
     display: flex;
@@ -22,30 +83,52 @@ body {
     width: 100%;
 }
 
-/* Code responsible for rotating and cast shadowing */
-#img1 {
-    width: 20%;
-    rotate: 7deg;
-    border-radius: 10px;
-    box-shadow: 8px 8px rgba(0, 0, 0, 0.301), 20px 15px rgba(0, 0, 0, 0.301);
-}
 
 #img {
-    width: 40%;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 350px;
+    border: 1px dotted rgba(11, 17, 214, 0.8);
+    margin: 0px;
 }
 
-#warsaw-logo {
-    width: 10%;
+#old-market {
+    width: 250px;
 }
-
 
 footer {
     text-align: center;
+    margin: auto;
     padding: 2px;
     background-color: #fdf5df;
     color: #5e9fc4;
     font-size: 100%;
 }
 
-@media screen and (max-width: 799px) {}
+.main-container>div {
+    padding: 0%;
+}
+
+@media screen and (max-width: 799px) {
+
+    body {
+        background-color: purple;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        /* justify-content: center; */
+        gap: 20px;
+    }
+
+    .flex-textarea {
+        order: 1;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .flex-gallery {
+        order: -1;
+    }
+
+}
