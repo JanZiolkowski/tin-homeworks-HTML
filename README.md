@@ -3,7 +3,7 @@ This repository was made as a part of the TIN (Technologie internetu / Internet 
 It covers tasks concerning HTML & CSS, which are introductory part of this course. 
 
 Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
-It will consist of 7 homeworks and one big project.
+It will consist of 2 introductory homeworks for the HTML and CSS.
 
 IMPORTANT !!! ! + TAB = > creates skeleton of the html file
 
