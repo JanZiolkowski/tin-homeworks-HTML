@@ -1,4 +1,4 @@
-# tin-homeworks-html
+#  Internet Technologies Homework 1 & 2
 This repository was made as a part of the TIN (Technologie internetu / Internet Technologie) course at [PJATK](https://pja.edu.pl).
 It covers tasks concerning HTML & CSS, which are introductory part of this course. 
 
