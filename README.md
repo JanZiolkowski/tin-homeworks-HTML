@@ -7,7 +7,7 @@ It will consist of 2 introductory homeworks for the HTML and CSS.
 
 IMPORTANT !!! ! + TAB = > creates skeleton of the html file
 
-## Task 1 - HTML + CSS:
+## Homework 1 - HTML + CSS:
 ### Assignment A – 3 pts
 
 Create a HTML page that meets the following requirements:
@@ -47,7 +47,7 @@ Useful links for this task:
 - [CSS diner](https://flukeout.github.io/)
 - [w3schools](https://www.w3schools.com/)
 
-## Task 2 - HTML + CSS:
+## Homework 2 - HTML + CSS:
 ### Assignment A – 10 points:
 Use Flexbox or Grid layout and other properties to create a webpage meeting the following requirements:
 -   Header, using an image with rounded corners, rotated and casting shadow + text
