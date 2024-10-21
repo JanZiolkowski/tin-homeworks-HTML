@@ -3,7 +3,7 @@ This repository was made as a part of the TIN (Technologie internetu / Internet 
 It covers tasks concerning HTML & CSS, which are introductory part of this course. 
 
 Tutor site: [Emil Wcisło, Msc.](https://users.pja.edu.pl/~ewcislo/)
-It will consist of 7 homeworks and one big project.
+It will consist of 2 introductory homeworks for the HTML and CSS.
 
 IMPORTANT !!! ! + TAB = > creates skeleton of the html file
 
@@ -70,3 +70,9 @@ Useful links for this task:
 - [Responive Web Design Tutorial](https://www.w3schools.com/css/css_rwd_intro.asp)
 - [Nexa Font source](https://www.dafont.com/nexa.font?back=theme)
 - [Sinera Font source](https://www.dafont.com/sinera.font)
+
+Feedback after defending the 2nd Task:
+- Use [relative CSS Units](https://www.w3schools.com/cssref/css_units.php) rather than Pixels 
+- Use [Sematic HTML 5](https://www.w3schools.com/html/html5_semantic_elements.asp) elements, rather than non-semantic like <div>
+- Use for single coherent text to format into columns attributes like [column-width](https://www.w3schools.com/cssref/css3_pr_column-width.php) and [column-count](https://www.w3schools.com/cssref/css3_pr_column-count.php)
+- Media queries = if statements!
